@@ -5,9 +5,9 @@ import { applyMiddleware, createStore } from 'redux';
 import logger from 'redux-logger';
 import todoApp from './reducers';
 import App from './App';
-
 import './style.css';
 
+require('babel-polyfill');
 
 const store = createStore(todoApp, applyMiddleware(logger));
 

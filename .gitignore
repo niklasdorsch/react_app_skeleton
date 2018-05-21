@@ -1,3 +1,7 @@
+localhost.key
+localhost.crt
+
+
 # Logs
 logs
 *.log
